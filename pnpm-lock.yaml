@@ -7,12 +7,14 @@ importers:
       '@changesets/cli': ^2.22.0
       eslint: 7.32.0
       eslint-config-custom: workspace:*
+      husky: ^8.0.1
       prettier: ^2.5.1
       turbo: latest
     devDependencies:
       '@changesets/cli': 2.22.0
       eslint: 7.32.0
       eslint-config-custom: link:packages/eslint-config-custom
+      husky: 8.0.1
       prettier: 2.6.2
       turbo: 1.2.9
 
@@ -1673,6 +1675,12 @@ packages:
 
   /human-id/1.0.2:
     resolution: {integrity: sha512-UNopramDEhHJD+VR+ehk8rOslwSfByxPIZyJRfV739NDhN5LF1fa1MqnzKm2lGTQRjNrjK19Q5fhkgIfjlVUKw==}
+    dev: true
+
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /iconv-lite/0.4.24:
