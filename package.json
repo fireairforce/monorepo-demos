@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "root-mono",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
