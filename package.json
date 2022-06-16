@@ -7,7 +7,8 @@
     "lint": "turbo run lint",
     "changeset": "changeset",
     "version": "changeset version",
-    "release": "turbo run build --filter=docs^... && changeset publish"
+    "release": "turbo run build --filter=docs^... && changeset publish",
+    "graph": "pnpm-workspace-graph"
   },
   "devDependencies": {
     "@changesets/cli": "^2.22.0",
