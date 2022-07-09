@@ -4,7 +4,9 @@
   "packageManager": "pnpm@7.5.0",
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev --parallel",
+    "dev": "turbo run dev",
+    "dev:web": "turbo run dev --filter=web",
+    "build:web": "turbo run build --filter=web",
     "lint": "turbo run lint",
     "changeset": "changeset",
     "version": "changeset version",
