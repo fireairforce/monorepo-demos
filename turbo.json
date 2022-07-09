@@ -13,7 +13,7 @@
       "outputs": []
     },
     "dev": {
-      "cache": false
+      "cache": true
     },
     "web#dev": {
       "dependsOn": [
